@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  
+  
+  <groupId>com.mahmoud.orderManagement</groupId>
+  <artifactId>order-management</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Order_Management</name>
+  <description>parent Project for order Management Services</description>
+  
+  
+  
+  <modules>
+  	<module>core-api</module>
+  	<module>payment-service</module>
+  	<module>order-service</module>
+  	<module>shipping-service</module>
+  </modules>
+</project>
